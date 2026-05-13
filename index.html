@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Jenkins Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Welcome to My Website</h1>
-    <button onclick="showMessage()">Click Me</button>
+    <div class="container">
+        <h1>🚀 Welcome to My Website</h1>
+
+        <p>
+            This website is created using HTML, CSS, and JavaScript.
+        </p>
+
+        <p>
+            The project is stored in GitHub and automatically built using Jenkins.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+        <h3 id="message"></h3>
+    </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
